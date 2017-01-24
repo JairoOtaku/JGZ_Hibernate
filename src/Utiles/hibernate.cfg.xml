@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://192.168.28.3:3306/dam15_Hibernate?zeroDateTimeBehavior=convertToNull</property>
+    <property name="hibernate.connection.username">dam15</property>
+    <property name="hibernate.connection.password">salesianas</property>
+    <mapping resource="POJOS/Electrodomestico.hbm.xml"/>
+    <mapping resource="POJOS/Componentes.hbm.xml"/>
+    <mapping resource="POJOS/Aparatoelectrico.hbm.xml"/>
+    <mapping resource="POJOS/Fabricantes.hbm.xml"/>
+  </session-factory>
+</hibernate-configuration>

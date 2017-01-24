@@ -3,15 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Controlador;
+package DAO;
 
 /**
  *
- * @author Alumno
+ * @author Usuario
  */
-public class Controlador {
-
-    public void iniciar() {
-
-    }
+public class Componentes implements ComponentesInterf{
+    
 }
