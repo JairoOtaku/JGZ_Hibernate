@@ -5,10 +5,13 @@
  */
 package DAO;
 
+import POJOS.Fabricantes;
+
 /**
  *
  * @author Usuario
  */
-public interface ProveedoresInterf {
-    
+public class FabricantesDAO implements FabricantesDAOInterf {
+
+    Fabricantes fab;
 }

@@ -5,10 +5,13 @@
  */
 package DAO;
 
+import POJOS.Componentes;
+
 /**
  *
  * @author Usuario
  */
-public interface ElectrodomesticoInterf {
-    
+public class ComponentesDAO implements ComponentesDAOInterf {
+
+    Componentes comp;
 }

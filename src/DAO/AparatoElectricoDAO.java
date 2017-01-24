@@ -5,10 +5,14 @@
  */
 package DAO;
 
+import POJOS.Aparatoelectrico;
+
 /**
  *
  * @author Usuario
  */
-public interface ComponentesInterf {
-    
+public class AparatoElectricoDAO implements AparatoElectricoDAOInterf {
+
+    Aparatoelectrico ape;
+
 }

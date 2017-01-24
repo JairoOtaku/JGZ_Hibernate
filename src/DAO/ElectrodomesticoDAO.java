@@ -5,10 +5,13 @@
  */
 package DAO;
 
+import POJOS.Electrodomestico;
+
 /**
  *
  * @author Usuario
  */
-public class Proveedores implements ProveedoresInterf {
+public class ElectrodomesticoDAO implements ElectrodomesticoDAOInterf {
 
+    Electrodomestico elec;
 }

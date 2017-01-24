@@ -9,6 +9,6 @@ package DAO;
  *
  * @author Usuario
  */
-public class AparatoElectrico implements AparatoElectricoInterf {
+public interface AparatoElectricoDAOInterf {
     
 }

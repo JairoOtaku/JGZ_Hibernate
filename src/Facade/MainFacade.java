@@ -14,8 +14,8 @@ import Utiles.MyFactory;
  */
 public class MainFacade implements MainFacadeInterf {
 
-    private AparatoElectricoInterf APE = (AparatoElectrico) MyFactory.getObject("APARATOELCTRICO");
-    private ComponentesInterf COMP = (Componentes) MyFactory.getObject("COMPONENTES");
-    private ElectrodomesticoInterf ELEC = (Electrodomestico) MyFactory.getObject("ELECTRODOMESTICO");
-    private ProveedoresInterf PROV = (Proveedores) MyFactory.getObject("PROVEEDORES");
+    private AparatoElectricoDAOInterf APE = (AparatoElectricoDAO) MyFactory.getObject("APARATOELCTRICO");
+    private ComponentesDAOInterf COMP = (ComponentesDAO) MyFactory.getObject("COMPONENTES");
+    private ElectrodomesticoDAOInterf ELEC = (ElectrodomesticoDAO) MyFactory.getObject("ELECTRODOMESTICO");
+    private FabricantesDAOInterf PROV = (FabricantesDAO) MyFactory.getObject("PROVEEDORES");
 }

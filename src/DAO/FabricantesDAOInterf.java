@@ -9,6 +9,6 @@ package DAO;
  *
  * @author Usuario
  */
-public class Electrodomestico implements ElectrodomesticoInterf{
+public interface FabricantesDAOInterf {
     
 }

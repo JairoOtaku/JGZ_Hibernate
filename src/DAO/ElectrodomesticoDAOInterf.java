@@ -9,6 +9,6 @@ package DAO;
  *
  * @author Usuario
  */
-public interface AparatoElectricoInterf {
+public interface ElectrodomesticoDAOInterf {
     
 }

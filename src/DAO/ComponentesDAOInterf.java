@@ -9,6 +9,6 @@ package DAO;
  *
  * @author Usuario
  */
-public class Componentes implements ComponentesInterf{
+public interface ComponentesDAOInterf {
     
 }
