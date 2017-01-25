@@ -5,10 +5,19 @@
  */
 package DAO;
 
+import javax.swing.table.DefaultTableModel;
+
 /**
  *
  * @author Usuario
  */
 public interface AparatoElectricoDAOInterf {
-    
+
+    public void InsertAPE();
+
+    public void UpdateAPE();
+
+    public void DeleteAPE();
+
+    public DefaultTableModel TablaAparatos();
 }

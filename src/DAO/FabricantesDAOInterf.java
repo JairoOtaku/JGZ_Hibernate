@@ -5,10 +5,19 @@
  */
 package DAO;
 
+import javax.swing.table.DefaultTableModel;
+
 /**
  *
  * @author Usuario
  */
 public interface FabricantesDAOInterf {
-    
+
+    public void InsertFAB();
+
+    public void UpdateFAB();
+
+    public void DeleteFAB();
+
+    public DefaultTableModel TablaFabricantes();
 }
