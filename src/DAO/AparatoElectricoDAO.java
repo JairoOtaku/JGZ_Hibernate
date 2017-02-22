@@ -1,9 +1,7 @@
-
 package DAO;
 
 import POJOS.Aparatoelectrico;
 import javax.swing.table.DefaultTableModel;
-
 
 public class AparatoElectricoDAO implements AparatoElectricoDAOInterf {
 

@@ -1,9 +1,7 @@
-
 package DAO;
 
 import POJOS.Fabricantes;
 import javax.swing.table.DefaultTableModel;
-
 
 public class FabricantesDAO implements FabricantesDAOInterf {
 
