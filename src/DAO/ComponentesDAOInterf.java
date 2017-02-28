@@ -1,14 +1,10 @@
-
 package DAO;
 
 import javax.swing.table.DefaultTableModel;
 
-
 public interface ComponentesDAOInterf {
 
-    public void InsertCOMP();
-
-    public void UpdateCOMP();
+    public void Insert_UpdateCOMP();
 
     public void DeleteCOMP();
 

@@ -1,23 +1,22 @@
 
 package DAO;
 
-import POJOS.Componentes;
+import POJOS.Componentes;import Utiles.NewHibernateUtil;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 import javax.swing.table.DefaultTableModel;
-
+import org.hibernate.*;
 
 public class ComponentesDAO implements ComponentesDAOInterf {
 
     Componentes comp;
 
     @Override
-    public void InsertCOMP() {
+    public void Insert_UpdateCOMP() {
 
     }
 
-    @Override
-    public void UpdateCOMP() {
-
-    }
 
     @Override
     public void DeleteCOMP() {
