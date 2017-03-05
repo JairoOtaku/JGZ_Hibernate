@@ -1,8 +1,15 @@
 package Vistas;
 
+import Facade.MainFacade;
+import Facade.MainFacadeInterf;
+import Utiles.MyFactory;
+
 public class Main extends javax.swing.JFrame {
 
+    MainFacadeInterf facade = (MainFacade) MyFactory.getObject("FACADE");
+
     public Main() {
+        jTable1.setModel(facade.TablaFabricantes());
         initComponents();
     }
 
@@ -27,17 +34,6 @@ public class Main extends javax.swing.JFrame {
 
         jPanel1.setBorder(new javax.swing.border.MatteBorder(null));
 
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
-            },
-            new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
-            }
-        ));
         jScrollPane1.setViewportView(jTable1);
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(

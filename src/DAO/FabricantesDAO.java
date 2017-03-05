@@ -58,7 +58,7 @@ public class FabricantesDAO implements FabricantesDAOInterf {
     public ArrayList<Fabricantes> selectAllFabricantes() {
         ArrayList<Fabricantes> arrayfab = new ArrayList<>();
 
-        String c = "select f from Fabricante f";
+        String c = "select f from FABRICANTES f";
         Session session = NewHibernateUtil.getSessionFactory().openSession();
         Query q = session.createQuery(c);
         List results = q.list();
