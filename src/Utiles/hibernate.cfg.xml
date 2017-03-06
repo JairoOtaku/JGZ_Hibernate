@@ -4,7 +4,8 @@
     <session-factory>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://192.168.28.3:3306/dam15_Hibernate?zeroDateTimeBehavior=convertToNull</property>
+        <!--  ipinterna: 192.168.28.3  /////   ipexterna: 79.148.236.236 -->
+        <property name="hibernate.connection.url">jdbc:mysql://79.148.236.236:3306/dam15_Hibernate?zeroDateTimeBehavior=convertToNull</property>
         <property name="hibernate.connection.username">dam15</property>
         <property name="hibernate.connection.password">salesianas</property>
         <mapping resource="POJOS/Electrodomestico.hbm.xml"/>
