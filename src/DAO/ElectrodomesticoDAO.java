@@ -52,7 +52,7 @@ public class ElectrodomesticoDAO implements ElectrodomesticoDAOInterf {
             fila[0] = as.getId();
             fila[1] = as.getNombre();
             fila[1] = as.getCaracteristica();
-            fila[1] = as.getAparatoelectricos();
+            //fila[1] = as.getAparatoelectricos().getNombre().toString();
 
             //METEMOS EL ARRAY EN LA TABLA POR COLUMNAS
             tablita.addRow(fila);
